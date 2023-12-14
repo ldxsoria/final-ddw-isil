@@ -1,0 +1,212 @@
+/*Fuente de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --color-principal: #013361;
+    --color-secundario: #2a8d3f;
+    --color-contrastre: #fff;
+    --color-alerta: #00A3D4;
+    --color-negro: #000;
+    --fuente-uno: 'Poppins', sans-serif;
+    --fuente-dos: 'Bebas Neue', sans-serif;
+
+}
+
+/*Formateamos la pagina*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--fuente-uno)
+}
+
+/*  GENERALES GENERALES GENERALES GENERALES   */
+.contenedor{
+    max-width: 70%;
+    margin: 0px auto 
+}
+
+.fila {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.columna {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 0 15px;
+}
+
+.espaciado {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ajustar-ancho {
+    width: 100%;
+    height: auto;
+}
+
+
+/*  BARRA SUPERIOR */
+#barra-superior{
+    background-color: var(--color-alerta);
+}
+
+
+#barra-superior .fila{
+    padding: 5px 0px;
+    justify-content: space-between;
+}
+
+#barra-superior a{
+    font-size: 14px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#barra-superior .barra-redes-sociales i{
+    font-size: 1.5em;
+}
+
+/* CABEZERA */
+#cabezera{
+    background-color: var(--color-principal);
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-link{
+    color: var(--color-contrastre);
+    font-size: 16px;
+    font-family: var(--fuente-tres);
+    font-weight: 800;
+    margin: 0 5px;
+    padding: 6px 8px;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+
+}
+
+.menu-link:hover{
+    border: thin solid var(--color-secundario);  
+    background-color: var(--color-secundario);
+}
+
+.resaltador{
+    border: thin solid var(--color-secundario);  
+    background-color: var(--color-secundario);
+}
+
+.logo {
+    width: 147px;
+}
+
+/* VIDEO DE PORTADA */
+.comunidad-video{
+    position: relative;
+}
+
+.ajustar-video {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+}
+
+.comunidad-video-titulo {
+    color: var(--color-contrastre);
+    position: absolute;
+    top: 50%; /* bottom */
+    left: 50%; /* right */
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.video-titulo{
+    font-family: var(--fuente-dos);
+    color: var(--color-principal);
+    text-shadow: 2px 2px 2px var(--color-contrastre);
+    font-size: 6rem;
+}
+
+.video-titulo span{
+    color: var(--color-alerta);
+}
+
+.video-subtitulo{
+    color: var(--color-secundario);
+    text-shadow: 2px 2px 2px var(--color-negro);
+    font-size: 4rem;
+}
+
+.comunidad-video-titulo p {
+    text-shadow: 2px 2px 2px var(--color-negro);
+
+    font-size: 2rem;
+}
+
+.video-boton {
+    display: inline-block;
+    background-color: #25D366; 
+    color: var(--color-contrastre); 
+    margin-top: 25px;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+
+}
+
+.video-boton a {
+    color: inherit; /* Heredar color del texto del contenedor */
+    text-decoration: none;
+}
+
+.video-boton i {
+    margin-right: 8px; 
+}
+
+.video-boton:hover {
+    background-color: var(--color-secundario); 
+}
+
+
+.comunidad-video::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); /* Fondo negro con transparencia (ajusta el valor alpha según necesites) */
+    z-index: 0; /* Añadido para que el fondo esté detrás del video y del texto */
+}
