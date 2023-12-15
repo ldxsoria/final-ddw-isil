@@ -26,6 +26,11 @@ html {
     font-family: var(--fuente-uno)
 }
 
+body {
+    line-height: 2; /* Interlineado doble */
+}
+
+
 /*  GENERALES GENERALES GENERALES GENERALES   */
 .contenedor{
     max-width: 70%;

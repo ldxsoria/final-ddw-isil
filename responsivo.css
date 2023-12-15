@@ -6,7 +6,7 @@
     }
 
     /* BARRA SUPERIOR */
-    #barra-superior a{
+    #barra-superior{
         font-size: 0.8rem;
     }
 
@@ -42,7 +42,7 @@
     /* VIDEO DE PORTADA*/
 
     .video-titulo {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .video-subtitulo {
@@ -50,7 +50,13 @@
     }
 
     .comunidad-video-titulo p  {
-        font-size: 0.9rem;
+        font-size: 1rem;
+    }
+
+    .video-boton{
+        margin-top: 0.2rem;
+        font-size: 1rem;
+
     }
 
     /* NOSOTROS */
