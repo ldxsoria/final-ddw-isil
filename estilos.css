@@ -409,8 +409,9 @@ body {
 }
 
 /* CONTACTO */
-#contacto {
-}
+    #contacto {
+        font-size: 1.3rem;
+    }
 
 .form-master {
     display: flex;
@@ -443,8 +444,8 @@ body {
 .contacto-datos .box {
     padding: 10px;
     display: flex;
-    min-width: 70%;
-    max-width: 70%;
+    min-width: 80%;
+    max-width: 80%;
     justify-content: center;
 }
 
