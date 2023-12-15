@@ -1,0 +1,19 @@
+@media screen and (max-width:400px) {
+    .contenedor{
+        max-width: 90%;
+    }
+
+    /* VIDEO DE PORTADA*/
+    .video-titulo {
+        font-size: 1rem;
+    }
+
+    .video-subtitulo {
+        font-size: 0.3rem;
+    }
+
+    .comunidad-video-titulo p  {
+        font-size: 0.3rem;
+    }
+
+}

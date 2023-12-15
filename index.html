@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsivo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <title>Luis Diego Campusmana Soria</title>
 </head>
@@ -45,38 +45,38 @@
                 </div>
             </div>
         </div>
-        <div id="cabezera" class="espaciado">
-            <div class="contenedor">
-                <nav class="nav-bar">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="imagenes/logo-white.png" class="ajustar-ancho">
-                        </a>
-                    </div>
-                    <ul class="menu">
-                        <li>
-                            <a href="index.html" class="menu-link resaltador">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="nosotros.html" class="menu-link">Nosotros</a>
-                        </li>
-                        <li>
-                            <a href="comunidad.html" class="menu-link">Admisión</a>
-                        </li>
-                        <li>
-                            <a href="blog.html" class="menu-link">Infraestructura</a>
-                        </li>
-                        <li>
-                            <a href="contacto.html" class="menu-link">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+    </header>
+    <header id="cabecera" class="espaciado">
+        <div class="contenedor">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imagenes/logo-white.png" class="ajustar-ancho">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html" class="menu-link resaltador">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html" class="menu-link">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="comunidad.html" class="menu-link">Admisión</a>
+                    </li>
+                    <li>
+                        <a href="blog.html" class="menu-link">Infraestructura</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html" class="menu-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <!-- Video de portada -->
     <section id="video-banner-comunidad">
-        <div class="contenedor">
+        <!-- <div class="contenedor"> -->
             <div class="comunidad-video">
                 <video autoplay loop muted class="ajustar-video" >
                     <source src="./videos/pexels.mp4" type="video/mp4">
@@ -93,7 +93,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </section>
     <!--Nosotros-->
     <section id="nosotros" class="espaciado">
@@ -127,7 +127,7 @@
     </section>
 
     <!-- propuesta -->
-    <section id="propuesta">
+    <section id="propuesta" class="espaciado">
         <div class="contenedor">
             <div class="fila">
                 <div class="columna propuesta-titulo">
@@ -144,9 +144,12 @@
                             <p>Formación con estándares internacionales a través de los programas del BI. Fomentamos el logro de aprendizajes a través de la indagación y la conexión del mundo real con los contenidos estudiados. Promueve el aprendizaje colaborativo. </p>
                         </div>
                     </div>
-                    <h3 class="subtitulo-constrastre">
-                        Un Colegio del mundo
-                    </h2>
+                    <div class="propuesta-titulos">
+                        <h3 class="subtitulo-constrastre">
+                            Un colegio del mundo
+                        </h3>
+                        <a href="#">Cónoce más</a>
+                    </div>
                 </columna>
                 <columna class="columna33 propuesta-efecto">
                     <div class="propuesta-img">
@@ -155,9 +158,12 @@
                             <p>Formación con estándares internacionales a través de los programas del BI. Fomentamos el logro de aprendizajes a través de la indagación y la conexión del mundo real con los contenidos estudiados. Promueve el aprendizaje colaborativo. </p>
                         </div>
                     </div>
-                    <h3 class="subtitulo-constrastre">
-                        Formación integral 
-                    </h2>
+                    <div class="propuesta-titulos">
+                        <h3 class="subtitulo-constrastre">
+                            Formacion integral
+                        </h3>
+                        <a href="#">Cónoce más</a>
+                    </div>
                 </columna>
                 <columna class="columna33 propuesta-efecto">
                     <div class="propuesta-img">
@@ -166,58 +172,134 @@
                             <p>Formamos parte de Cambridge English School. Somos centro de preparación para los exámenes de certificación internacional. </p>
                         </div>
                     </div>
-                    <h3 class="subtitulo-constrastre">
-                        Exámenes Cambridge
-                    </h2>
+                    <div class="propuesta-titulos">
+                        <h3 class="subtitulo-constrastre">
+                            Exámenes Cambridge
+                        </h3>
+                        <a href="#">Cónoce más</a>
+                    </div>
                 </columna>                                   
             </div>
         </div>
     </section>
 
     <!-- Contacto -->
-    <section id="contacto">
+    <section id="contacto" class="espaciado">
         <div class="contenedor">
-            <div class="fila">
+            <div class="fila-contacto">
                 <div class="columna66">
                     <form action="">
                         <div class="columna form-master">
                             <div class="fila">
-                        <div class="columna">
-                            
-                        <div>
-                            <input class="campo-entrada" type="text" placeholder="Ingresa tu nombre" required>
-                        </div>
-
-                        <div>
-                            <input class="campo-entrada" type="text" placeholder="Ingresa tu apellido" required>
-                        </div>
-                        </div>
-                        <div class="columna">
-                            <div>
-                                <input class="campo-entrada" type="tel" placeholder="Ingresa tu teléfono/celular" required>
+                                <div class="columna">
+                                    <div>
+                                        <input class="campo-entrada" type="text" placeholder="Nombre" required>
+                                    </div>
+                                    <div>
+                                        <input class="campo-entrada" type="text" placeholder="Subject" required>
+                                    </div>
+                                </div>
+                                <div class="columna">
+                                    <div>
+                                        <input class="campo-entrada" type="email" placeholder="email" required>
+                                    </div>
+            
+                                    <div>
+                                        <input class="campo-entrada" type="text" placeholder="3 + 4 = ?" required>
+                                    </div>
+                                </div>
                             </div>
-    
-                            <div>
-                                <input class="campo-entrada" type="email" placeholder="Ingresa tu correo electrónico" required>
+                        </div>
+                        <div class="fila">
+                            <div class="columna">
+                                <div>
+                                    <textarea class="campo-entrada" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                </div>
                             </div>
                         </div>
+                        <div class="fila">
+                            <div class="columna send">
+                                <div>
+                                    <p>
+                                        <input type="checkbox" required> He leído y acepto la política de privacidad
+                                        para alumnos, disponible 
+                                        <a target="_blank" href="#">aquí.</a> 
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <input class="boton-enviar" type="submit" value="Enviar mensaje">
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
                     </form>
                 </div>
                 <div class="columna33 contacto-datos">
                     <div class="box">
-                        <div class="icono">
-                            <i class="fa-solid fa-school"></i>
-                        </div>
-                        <div class="info">
-                            <h3>Hi</h3>
-                            <p>Lima - aksdklj</p>
+                        <div class="fila">
+                            <div class="columna33">
+                                <div class="icono">
+                                    <i class="fa-solid fa-school"></i>
+                                </div>
+                            </div>
+                            <div class="columna66">
+                                <div class="info">
+                                    <h3>Local</h3>
+                                    <p>Callao - Av. Isil 1658</p>
+                                    <p>Perú</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                    <div class="box">
+                        <div class="fila">
+                            <div class="columna33">
+                                <div class="icono">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                            </div>
+                            <div class="columna66">
+                                <div class="info">
+                                    <h3>Correos</h3>
+                                    <p>Admisión - info@cole.com</p>
+                                    <p>Sistemas - sys@cole.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="fila">
+                            <div class="columna33">
+                                <div class="icono">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="columna66">
+                                <div class="info">
+                                    <h3>Telefonos</h3>
+                                    <p>245-25657</p>
+                                    <p>245-25659</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="fila">
+                            <div class="columna33">
+                                <div class="icono">
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                            </div>
+                            <div class="columna66">
+                                <div class="info">
+                                    <h3>Horario</h3>
+                                    <p>Lunes a Viernes</p>
+                                    <p>de 07:00 16:30 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                        
                 </div>
             </div>
         </div>
