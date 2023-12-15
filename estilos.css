@@ -56,6 +56,11 @@ html {
     max-width: 33.33%; 
 }
 
+.columna66 {
+    flex-basis: 66%;
+    max-width: 66%;     
+}
+
 .columna50{
     max-width: 50%;
     flex-basis: 50%;
@@ -347,3 +352,20 @@ html {
 .contacto-datos {
     background-color: var(--color-principal);
 }
+
+.form-master {
+    display: flex;
+    border: thin solid red;
+}
+
+.campo-entrada {
+    
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: rgba(95, 92, 189, 0.2) 1px solid;
+    font: inherit;
+}
+
