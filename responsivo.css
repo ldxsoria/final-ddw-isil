@@ -1,19 +1,111 @@
 @media screen and (max-width:400px) {
+
+    body {
+        font-family: var(--fuente-uno);
+
+    }
+
+    /* BARRA SUPERIOR */
+    #barra-superior a{
+        font-size: 0.8rem;
+    }
+
     .contenedor{
         max-width: 90%;
     }
 
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        width: 80px;
+    }
+    
+    .menu {
+        padding-top: 0.7rem;
+    }
+    .nav-menu-link {
+        padding: 5px;
+        margin: 1px;
+    }
+
+    .menu-link {
+        font-size: 0.9rem;
+
+    }
+
+    .espaciado {
+        padding: 30px 0px;
+    }
+
     /* VIDEO DE PORTADA*/
+
     .video-titulo {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .video-subtitulo {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 
     .comunidad-video-titulo p  {
         font-size: 0.9rem;
     }
 
+    /* NOSOTROS */
+
+    .titulo-principal {
+        font-size: 2.5rem;
+        text-align: center;
+        text-shadow: 0.1rem 0.1rem 0.1rem var(--color-negro);
+
+    }
+
+    .titulo-principal::after {
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #nosotros .contenedor .fila {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-principal{
+        font-size: 1.3rem;
+        padding-top: 25px;
+    }
+
+    p {
+        font-size: 1.3rem; 
+    }
+
+    .p-secundario {
+        margin-bottom: 0.9rem;
+    }
+
+    /* NOSOTROS */
+    .titulo-principal-contrastre {
+        font-size: 2.2rem;
+        
+    }
+
+    /* CONTACTO */
+    .fila-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fila-contacto .columna66 {
+        flex-basis: 100%;
+        max-width: 100%;   
+    }
+
+    .fila-contacto .columna33 {
+        flex-basis: 100%;
+        max-width: 100%;   
+    }
 }
