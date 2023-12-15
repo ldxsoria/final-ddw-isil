@@ -5,15 +5,15 @@
 
     /* VIDEO DE PORTADA*/
     .video-titulo {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .video-subtitulo {
-        font-size: 0.3rem;
+        font-size: 1.3rem;
     }
 
     .comunidad-video-titulo p  {
-        font-size: 0.3rem;
+        font-size: 0.9rem;
     }
 
 }
