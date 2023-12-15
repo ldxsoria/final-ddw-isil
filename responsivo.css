@@ -10,6 +10,11 @@
         font-size: 0.8rem;
     }
 
+    .barra-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+
     .contenedor{
         max-width: 90%;
     }
@@ -93,6 +98,16 @@
         margin-bottom: 0.9rem;
     }
 
+    .propuesta-imgs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .propuesta-imgs .columna33 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
     /* NOSOTROS */
     .titulo-principal-contrastre {
         font-size: 2.2rem;
@@ -100,6 +115,9 @@
     }
 
     /* CONTACTO */
+    #contacto .espaciado {
+        padding: 0;
+    }
     .fila-contacto{
         display: flex;
         flex-direction: column;
