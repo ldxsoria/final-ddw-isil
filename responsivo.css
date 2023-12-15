@@ -115,6 +115,9 @@
     }
 
     /* CONTACTO */
+    #contacto {
+        font-size: 1.3rem;
+    }
     #contacto .espaciado {
         padding: 0;
     }
